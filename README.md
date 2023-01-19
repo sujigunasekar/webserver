@@ -39,7 +39,7 @@ content ="""
 <h2>5.Express</h2>
 </body>
 </html>
-"""
+
 
 class WebHandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -58,9 +58,6 @@ httpd.serve_forever()
 
 ### Server Side Output
 ![SERVER OUTPUT](./images/serversideoutput.png)
-
-### Client Side Output
-![CLIENT OUTPUT](./images/clientsideoutput.png)
 
 
 ## RESULT:
